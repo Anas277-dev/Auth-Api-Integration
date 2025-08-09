@@ -1,12 +1,48 @@
-# React + Vite
+# Token-Based Authentication Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React frontend integrated with an **external authentication API**.  
+The app allows users to log in, stores the returned JWT token securely, decodes it to display user information, and supports logout functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+- **Vercel Deployment**: auth-api-integration-chi.vercel.appvercel.app)
+- **GitHub Repository**: https://github.com/Anas277-dev/Auth-Api-Integration
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+- Login with username & password.
+- Integration with external API: `https://os-project-server.vercel.app/`
+- Secure JWT token storage in `localStorage`.
+- Token decoding to extract user-specific data.
+- Welcome screen displaying decoded user details.
+- Logout functionality to clear token and redirect to login.
+- Clean and responsive UI.
+
+---
+
+## 🛠️ Tech Stack
+- **React.js** (Frontend Framework)
+- **Axios** (HTTP Requests)
+- **JWT Decode** (Token decoding)
+- **CSS** (Custom Styling)
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+
+Install Dependencies:
+npm install
+
+Run the App in Development:
+npm run dev
+
+Test Login:
+Username: Anas
+Password: Anas
